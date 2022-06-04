@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<!-- Mirrored from tidic84.github.io/WallHack/documentation/ddos.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 22:55:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8" />
+	<title>WallHack - DDOS</title>
+	<link rel="stylesheet" type="text/css" href="../css/documentations.css" />
+	<script src="../../../kit.fontawesome.com/275ad3a481.js" crossorigin="anonymous"></script>
+	<script src="../js/transition.js"></script>
+<link rel="icon"  type="image/png"  href="../favicon.png">
+<link rel="icon"  type="image/png"  href="../favicon.png">
+<link rel="icon"  type="image/png"  href="favicon.html">
+</head>
+
+<body>
+    <div class="transition transition is-active"></div>
+
+    <header class="header">
+		<img class="header-title" src="../resources/images/logo/logo-black-bold-bg.png" width="30" style="border-radius: 15px">
+		<p class="header-title">WallHack - DDOS</p>
+	</header>
+
+    <nav class="navbar">
+		<ul class="navbar-menu">
+			<li class="navbar-item">
+				<div class="navbar-link navbar-title">Menu</div>
+				<div class="nav-title"><i class="fas fa-chevron-right navbar-icon fa-lg logo"></i></div>
+			</li>
+			<li class="navbar-item">
+				<a href="../accueil.html" class="fas fa-home fa-lg navbar-icon"></a>
+				<a href="../accueil.html" class="navbar-link">Accueil</a>
+			</li>
+			<li class="navbar-item ">
+				<a href="../documentation.html" class="fas fa-folder fa-lg navbar-icon"></a>
+				<a href="../documentation.html" class="navbar-link">Documentation</a>
+			</li>
+			<li class="navbar-item ">
+				<a href="../credits.html" class="fas fa-address-card fa-lg navbar-icon"></a>
+				<a href="../credits.html" class="navbar-link">Credits</a>
+			</li>
+			<li class="navbar-item ">
+				<a href="../index-2.html" class="fas fa-sign-out-alt fa-lg navbar-icon"></a>
+				<a href="../index-2.html" class="navbar-link">Quitter</a>
+			</li>
+		</ul>
+	</nav>
+
+    <div class="container">
+        
+		<div class="title">Les attaques DDOS</div>
+		<div class = "text">
+			Une attaque distribuée par déni de service (Distribued Denial of Service) a pour but de rendre un serveur, un service ou une infrastructure indisponible. Pour empêcher le trafic légitime. Une attaque peut engendrer des pertes financières considérables.
+		</div>
+
+		<div class ="subtitle">Comment ça marche ?</div>
+		<div class = "text">
+			Lors d'une attaque DDoS, une multitude de requêtes est envoyée en simultané depuis de multiples points du Web appelés "zombies". 
+			L'intensité de ce « tir croisé » rend le service instable, voire indisponible. 
+			Certains pirates informatiques se sont spécialisés dans la « levée » d’armées de « zombies », 
+			qu’ils peuvent ensuite louer à d’autres personnes ou groupes malveillants pour attaquer une cible particulière.
+		</div>
+		<div class="box" style="width: 280px; height: 350px;">
+			<img src="../resources/images/docs/zombies.png" alt="Il y avais une image la :cry:" width="250" height="320" style="padding-top: 10px"> 
+			<p>Attaque DDOS</p>
+		</div>
+		<div class ="subtitle" style="margin-right:10rem;">Comment se protéger de ces attaques ?</div>
+		<div class ="text">
+			<li>Avoir recours a un Content Delivery Network (CDN) </li>
+			Un Content Delivery Network (CDN) est une infrastructure de serveurs répartie dans
+			plusieurs data centres, et dont l’objectif est de se substituer aux services d’une entité
+			pour servir ses contenus au plus proche des utilisateurs. Les CDN ont ainsi une fonction
+			de cache, et permettent notamment d’augmenter la disponibilité des ressources ou
+			encore d’accroître la vitesse de mise à disposition des données, généralement des
+			pages web ou des flux multimédia
+			<br>
+			<br>
+			<li> Redirection via le protocol DNS </li>
+			Certains services de protection reposent sur une redirection DNS. Le but est de diriger le
+			trafic à destination d’un domaine, comme example.com, vers l’adresse IP d’un serveur
+			du fournisseur de protection. Ce dernier se charge ensuite de filtrer le trafic, puis de le
+			rediriger vers la destination originelle. Ce modèle de fonctionnement est souvent offert
+			par des CDN pour protéger les serveurs web de leurs clients.
+
+		</div>
+    </div>
+
+	<!-- POPUP -->
+    <div class="popup-bg" id="popupBg"></div>
+    <div class="popup" id="popup">
+        <div class="popup-header">
+            <h3 align="center">Sources</h3>
+            <i class="fas fa-times close" id="close"></i>
+        </div>
+        <div class="popup-divider"></div>
+        <div class="popup-content">
+            <p>
+				DDOS 
+				<a href="https://fr.wikipedia.org/wiki/Attaque_par_déni_de_service">wikipedia</a> 
+				/ 
+				<a href="https://www.ssi.gouv.fr/guide/comprendre-et-anticiper-les-attaques-ddos/">ssi.gouv.fr</a>
+				/ 
+				<a href="https://www.ovh.com/fr/anti-ddos/principe-anti-ddos.xml">ovh.com</a>
+			</p>
+        </div>
+    </div>
+	<button id="sources">Voir Plus</button>
+
+    <footer class="footer">
+		<p>Tom et Cedric 16/01/2022  Copyright © WallHack</p>
+	</footer>
+
+	
+	<!-- Scripts -->
+	<script src="../js/docs.js"></script>
+	
+<!-- Template by Tidic (oui j'ai le melon !) -->
+</body>
